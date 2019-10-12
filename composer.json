@@ -3,5 +3,16 @@
 		"psr-4" : {
 			"app\\" : "src/app/"
 		}
-	}
+	},
+	"require" : {
+		"slim/slim" : "4.0.0",
+		"doctrine/orm" : "^2.6.2",
+		"nyholm/psr7" : "^1.2",
+		"nyholm/psr7-server" : "^0.3.0",
+		"guzzlehttp/psr7" : "^1.6",
+		"http-interop/http-factory-guzzle" : "^1.0"
+	},
+	"files":[
+		"src/config/database.php"
+	]
 }
